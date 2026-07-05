@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Laetitia YAO</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="stylep.css"/>
+</head>
+
+<body class="en">
+
+<div class="cursor" id="cursor"></div>
+
+<nav>
+  <!-- <a class="nav-logo" href="#">LY</a> -->
+  <div class="nav-right">
+    <a href="#work" data-fr>Projets</a><a href="#work" data-en>Work</a>
+    <a href="#about" data-fr>À propos</a><a href="#about" data-en>About</a>
+    <a href="#contact">Contact</a>
+    <div class="lang-pill">
+      <button class="lbtn on" onclick="setLang('en')">EN</button>
+      <button class="lbtn" onclick="setLang('fr')">FR</button>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg" data-fr>DEVELOPPEUSE</div>
+  <div class="hero-bg" data-en>DEVELOPER</div>
+  <div class="hero-label" data-fr>Developpeuse · Orléans, France</div>
+  <div class="hero-label" data-en>Developer · Orléans, France</div>
+  <h1>Laetitia<br/><em>YAO</em></h1>
+  <div class="hero-bottom">
+    <p class="hero-desc" data-fr>Dev Business Central certifiée MB-820, 4 ans d'expérience,  je vise aujourd'hui à étendre mon profil Microsoft par des compétences en Architecture/Genie logiciel, web, Data, IA et des notions de DevOps afin de proposer des solutions toujours plus complètes et modernes.</p>
+    <p class="hero-desc" data-en>MB-820 certified Business Central developer, 4 years of experience, i am aiming to expand my Microsoft profile with skills in Architecture/software engineering, web, Data, AI and DevOps notions in order to offer increasingly complete and modern solutions.</p>
+    <div class="hero-badges">
+      <span class="badge">MB-820</span>
+      <!-- <span class="badge">B3 DevOps</span>
+      <span class="badge">MBA ESG 2026</span> -->
+      <span class="badge" data-fr>Disponible</span>
+      <span class="badge" data-en>Open to work</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="sec-hd">
+    <h2 class="sec-title reveal" data-fr>Projets</h2>
+    <h2 class="sec-title reveal" data-en>Work</h2>
+    <span class="sec-count">05 projects</span>
+  </div>
+  <div class="projects-list">
+
+    <a class="project reveal" href="https://front-laqo.onrender.com/" target="_blank">
+      <div class="proj-preview">
+        <div class="mock">
+          <div class="mock-bar"><div class="mock-dot"></div><div class="mock-dot"></div><div class="mock-dot"></div></div>
+          <div class="mock-line w70"></div><div class="mock-line w50"></div>
+          <div style="flex:1;display:grid;grid-template-columns:1fr 2fr;gap:.5rem;margin-top:.4rem">
+            <div style="display:flex;flex-direction:column;gap:.35rem"><div class="mock-line w100"></div><div class="mock-line w100"></div><div class="mock-line w100"></div></div>
+            <div class="mock-big"><div class="mock-emoji">⚔️</div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="proj-tag">Full-stack · 2024</div>
+        <div class="proj-title">CareerQuest <span class="proj-arrow">↗</span></div>
+        <p class="proj-desc" data-fr>App RPG gamifiée de développement de carrière. Quêtes, progression, thème dark/light, partage LinkedIn, CI/CD complet sur Render.</p>
+        <p class="proj-desc" data-en>Gamified RPG career development app. Quest system, dark/light theme, LinkedIn share, full CI/CD pipeline on Render.</p>
+        <div class="proj-stack"><span class="proj-tech">React 18</span><span class="proj-tech">Django REST</span><span class="proj-tech">PostgreSQL</span><span class="proj-tech">Docker</span></div>
+      </div>
+    </a>
+
+    <!-- <a class="project reveal" href="#" target="_blank">
+      <div class="proj-preview">
+        <div class="mock">
+          <div class="mock-bar"><div class="mock-dot"></div><div class="mock-dot"></div><div class="mock-dot"></div></div>
+          <div style="flex:1;display:grid;grid-template-columns:70px 1fr;gap:.65rem;margin-top:.4rem">
+            <div style="display:flex;flex-direction:column;gap:.35rem"><div class="mock-line w100"></div><div class="mock-line w100"></div><div class="mock-line w100"></div><div class="mock-line w100"></div></div>
+            <div style="display:flex;flex-direction:column;gap:.45rem"><div class="mock-grid"><div class="mock-card"></div><div class="mock-card"></div><div class="mock-card"></div></div><div class="mock-line w70"></div><div class="mock-line w50"></div></div>
+          </div>
+          <div style="height:36px;border-top:.5px solid rgba(255,255,255,.05);margin-top:.4rem;display:flex;align-items:center;justify-content:center;font-size:.85rem;color:rgba(255,255,255,.3)">▶ &nbsp; ⏭ &nbsp; 🔊</div>
+        </div>
+      </div>
+      <div>
+        <div class="proj-tag">SPA · Deezer API · 2024</div>
+        <div class="proj-title">Wavify <span class="proj-arrow">↗</span></div>
+        <p class="proj-desc" data-fr>Clone Spotify multi-pages avec l'API Deezer réelle. Player audio 30s, recherche live, page artiste, responsive mobile — sans framework.</p>
+        <p class="proj-desc" data-en>Multi-page Spotify-inspired SPA using the real Deezer API. 30s audio player, live search, artist page, responsive — zero framework.</p>
+        <div class="proj-stack"><span class="proj-tech">Vanilla JS</span><span class="proj-tech">Deezer API</span><span class="proj-tech">CSS Grid</span></div>
+      </div>
+    </a> -->
+
+    <!-- <a class="project reveal" href="#" target="_blank">
+      <div class="proj-preview">
+        <div class="mock">
+          <div class="mock-bar"><div class="mock-dot"></div><div class="mock-dot"></div><div class="mock-dot"></div></div>
+          <div class="mock-line w50" style="margin:.4rem 0"></div>
+          <div style="display:flex;flex-direction:column;gap:.35rem;flex:1">
+            <div style="height:34px;border-radius:8px;background:rgba(255,255,255,.05);border:.5px solid rgba(255,255,255,.06)"></div>
+            <div style="height:34px;border-radius:8px;background:rgba(255,255,255,.03);border:.5px solid rgba(255,255,255,.04)"></div>
+            <div style="height:34px;border-radius:8px;background:rgba(255,255,255,.03);border:.5px solid rgba(255,255,255,.04)"></div>
+            <div style="height:34px;border-radius:8px;background:rgba(255,255,255,.02);border:.5px solid rgba(255,255,255,.03)"></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="proj-tag">React · Supabase · 2024</div>
+        <div class="proj-title">Taskr <span class="proj-arrow">↗</span></div>
+        <p class="proj-desc" data-fr>Todo app React avec drag & drop natif, dates d'échéance, priorités et persistance cloud temps réel via Supabase.</p>
+        <p class="proj-desc" data-en>React todo app with native drag & drop, due dates, priorities and real-time cloud persistence via Supabase.</p>
+        <div class="proj-stack"><span class="proj-tech">React</span><span class="proj-tech">Vite</span><span class="proj-tech">Supabase</span></div>
+      </div>
+    </a> -->
+
+    <a class="project reveal" href="https://weatheroclock.carellelaetitia.com/" target="_blank">
+      <div class="proj-preview">
+        <div class="mock" style="align-items:center;justify-content:center;gap:.5rem">
+          <div class="mock-emoji" style="font-size:3rem">🌤️</div>
+          <div class="mock-line w50" style="margin:0 auto"></div>
+          <div class="mock-line w30" style="margin:0 auto"></div>
+          <div class="mock-grid" style="margin-top:.5rem;width:100%"><div class="mock-card"></div><div class="mock-card"></div><div class="mock-card"></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="proj-tag">API · Geolocation · 2024</div>
+        <div class="proj-title">Weather App <span class="proj-arrow">↗</span></div>
+        <p class="proj-desc" data-fr>App météo avec géolocalisation et prévisions 5 jours. Données temps réel via OpenWeatherMap. Design sombre premium.</p>
+        <p class="proj-desc" data-en>Weather app with geolocation and 5-day forecast. Real-time data via OpenWeatherMap API. Dark premium design.</p>
+        <div class="proj-stack"><span class="proj-tech">Vanilla JS</span><span class="proj-tech">OpenWeatherMap</span><span class="proj-tech">Geolocation</span></div>
+      </div>
+    </a>
+
+    <a class="project reveal" href="https://calculatrice.carellelaetitia.com/" target="_blank">
+      <div class="proj-preview">
+        <div class="mock" style="align-items:center;justify-content:center">
+          <div style="width:135px">
+            <div style="height:48px;border-radius:10px 10px 0 0;background:rgba(255,255,255,.04);border:.5px solid rgba(255,255,255,.07);display:flex;align-items:flex-end;justify-content:flex-end;padding:.35rem .55rem;font-size:1.2rem;color:rgba(255,255,255,.55)">0</div>
+            <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.04)">
+              <div style="height:30px;background:rgba(255,255,255,.03);display:flex;align-items:center;justify-content:center;font-size:.6rem;color:rgba(255,255,255,.25)">AC</div>
+              <div style="height:30px;background:rgba(255,255,255,.03)"></div>
+              <div style="height:30px;background:rgba(255,255,255,.03)"></div>
+              <div style="height:30px;background:rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;font-size:.7rem;color:rgba(255,255,255,.4)">÷</div>
+              <div style="height:30px;background:rgba(255,255,255,.03)"></div><div style="height:30px;background:rgba(255,255,255,.03)"></div><div style="height:30px;background:rgba(255,255,255,.03)"></div><div style="height:30px;background:rgba(255,255,255,.06)"></div>
+              <div style="height:30px;background:rgba(255,255,255,.03)"></div><div style="height:30px;background:rgba(255,255,255,.03)"></div><div style="height:30px;background:rgba(255,255,255,.03)"></div><div style="height:30px;background:rgba(255,255,255,.06)"></div>
+              <div style="height:30px;grid-column:span 2;background:rgba(255,255,255,.03)"></div>
+              <div style="height:30px;background:rgba(255,255,255,.03)"></div>
+              <div style="height:30px;background:#efefef;display:flex;align-items:center;justify-content:center;font-size:.7rem;color:#080808">=</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="proj-tag">Vanilla JS · UI · 2024</div>
+        <div class="proj-title">Calculatrice <span class="proj-arrow">↗</span></div>
+        <p class="proj-desc" data-fr>Calculatrice</p>
+        <p class="proj-desc" data-en>Calculator</p>
+        <div class="proj-stack"><span class="proj-tech">Vanilla JS</span><span class="proj-tech">CSS Grid</span><span class="proj-tech">Dark UI</span></div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="sec-hd">
+    <h2 class="sec-title reveal" data-fr>À propos</h2>
+    <h2 class="sec-title reveal" data-en>About</h2>
+    <span class="sec-count">Who I am</span>
+  </div>
+  <div class="about-grid">
+    <div>
+      <p class="about-big reveal" data-fr>Dev Business Central le jour,<br/><em>buildeuse de side projects</em><br/>le soir.</p>
+      <p class="about-big reveal" data-en>Business Central dev by day,<br/><em>side project builder</em><br/>by night.</p>
+      <div class="about-body reveal">
+        <p data-fr>4 ans chez Smart Technologies et MOJA Technologies sur des projets ERP on-premise et cloud Azure. Certifiée MB-820, je veux complèter mes acquis avec un diplome BAC+5 en informatique à partir de septembre 2026.</p>
+        <p data-en>4 years at Smart Technologies and MOJA Technologies on on-premise and Azure cloud ERP projects. MB-820 certified, completing a BAC+5 in Computer Science starting September 2026.</p>
+        <!-- <p data-fr>Mon objectif : Tech Lead à l'intersection de la data, de l'IA et du management.</p>
+        <p data-en>My goal: Tech Lead at the crossroads of data, AI and management.</p> -->
+      </div>
+      <div class="exp-strip reveal">
+        <div class="exp-row"><span class="exp-left">MOJA Technologies</span><span class="exp-right">Analyste programmeuse · 2024–2025</span></div>
+        <div class="exp-row"><span class="exp-left">Smart Technologies</span><span class="exp-right">Developpeuse · 2021–2024</span></div>
+        <!-- <div class="exp-row"><span class="exp-left">MBA ESG Paris</span><span class="exp-right" data-fr>Big Data & IA · 2026→</span><span class="exp-right" data-en>Big Data & AI · 2026→</span></div> -->
+      </div>
+    </div>
+    <div class="skills-col reveal">
+      <div><div class="sg-name">ERP & Core</div><div class="stags"><span class="stag">Business Central</span><span class="stag">AL / C/AL</span><span class="stag">SQL Server</span><span class="stag">Azure</span></div></div>
+      <div><div class="sg-name">DevOps & Cloud</div><div class="stags"><span class="stag">Docker</span><span class="stag">Kubernetes</span><span class="stag">GitLab CI/CD</span><span class="stag">Terraform</span><span class="stag">AWS</span></div></div>
+      <div><div class="sg-name">Web</div><div class="stags"><span class="stag">React</span><span class="stag">Vanilla JS</span><span class="stag">Python</span><span class="stag">Django</span><span class="stag">PostgreSQL</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="contact-wrap">
+    <h2 class="contact-big reveal" data-fr>On travaille<br/><em>ensemble ?</em></h2>
+    <h2 class="contact-big reveal" data-en>Let's work<br/><em>together.</em></h2>
+    <div class="clinks reveal">
+      <a class="clink" href="https://linkedin.com/in/ylca095a47198" target="_blank"><span>LinkedIn</span><span class="clink-arr">↗</span></a>
+      <a class="clink" href="https://fullport.carellelaetitia.com" target="_blank"><span>fullport.carellelaetitia.com</span><span class="clink-arr">↗</span></a>
+      <a class="clink" href="mailto:contact@carellelaetitia.com"><span>contact@carellelaetitia.com</span><span class="clink-arr">↗</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="foot-copy">© 2025 Laetitia Carelle</span>
+  <a href="#" class="foot-top" data-fr>Haut ↑</a>
+  <a href="#" class="foot-top" data-en>Top ↑</a>
+</footer>
+
+<script>
+const cursor = document.getElementById('cursor')
+document.addEventListener('mousemove', e => {
+  cursor.style.left = e.clientX + 'px'
+  cursor.style.top = e.clientY + 'px'
+})
+document.querySelectorAll('a,button,.project').forEach(el => {
+  el.addEventListener('mouseenter', () => cursor.classList.add('grow'))
+  el.addEventListener('mouseleave', () => cursor.classList.remove('grow'))
+})
+function setLang(l) {
+  document.body.className = l
+  document.querySelectorAll('.lbtn').forEach(b => b.classList.toggle('on', b.textContent.toLowerCase() === l))
+}
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in') })
+}, { threshold: 0.12 })
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el))
+</script>
+</body>
+</html>
